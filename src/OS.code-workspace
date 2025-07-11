@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../OS"
+		},
+		{
+			"path": "../../forntend domination"
+		},
+		{
+			"path": "../../misic player"
+		},
+		{
+			"name": "irpt",
+			"path": "../../irpt"
+		},
+		{
+			"path": "../../Back-End"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "forntend domination"
+	}
+}
