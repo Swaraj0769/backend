@@ -14,14 +14,13 @@ app.use(express.urlencoded({extended: true,limit:"16kb"}))
 app.use(express.static("public"))
 app.use(cookieParser)
 
-connectDB().then(() => {
-    app.listen(process.env.PORT || 8000, () => {
-        console.log(`Server port: ${process.env.PORT}`);
+// connectDB().then(() => {
+//     app.listen(process.env.PORT || 8000, () => {
+//         console.log(`Server port: ${process.env.PORT}`);
 
-    })
-}).catch((error) => {
-    console.log("mongoDB connection failed!!!", error);
-
-})
+//     })
+// }).catch((error) => {
+//     console.log("mongoDB connection failed!!!", error);
+// })
 
 export { app }
